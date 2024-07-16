@@ -52,22 +52,32 @@ body {
     font-weight: bold;
 }
 
-@media (max-width: 575.98px) {
-
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
 }
 
 @media (min-width: 1200px) {
-    
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
