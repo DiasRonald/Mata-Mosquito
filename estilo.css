@@ -52,3 +52,10 @@ body {
 	font-weight: bold;
 }
 
+@media screen {
+	body {
+		background-image: url(imagens/bg.jpg);
+		background-size: auto;
+	}
+	
+}
