@@ -52,10 +52,23 @@ body {
 	font-weight: bold;
 }
 
-@media screen {
-	body {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
 		background-image: url(imagens/bg.jpg);
-		background-size: auto;
+		background-size: 150vh;
+	}
+	.mosquitos {
+		image-rendering: optimizeQuality;
+		width: 100vw;
 	}
 	
+	.vence {
+		width: 100vw;
+	}
+
+	.game-over {
+		width: 100vw;
+	}
 }
+	
+	
